@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Rewards>
+                
+    
+    
+    <Reward>
+                                
+        
+        
+        <Username>asd</Username>
+                                
+        
+        
+        <StatusReward>none</StatusReward>
+                            
+    
+    
+    </Reward>
+            
+    
+    
+    <Reward>
+                        
+        
+        <Username>asd</Username>
+                        
+        
+        <StatusReward>none</StatusReward>
+                    
+    
+    </Reward>
+        
+    
+    <Reward>
+                
+        <Username>as</Username>
+                
+        <StatusReward>none</StatusReward>
+            
+    </Reward>
+    
+    <Reward>
+        <Username>as</Username>
+        <StatusReward>none</StatusReward>
+    </Reward>
+</Rewards>

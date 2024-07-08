@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+                    
+    
+    
+    
+    <user>
+                                        
+        
+        
+        
+        <username>1</username>
+                                        
+        
+        
+        
+        <password>1</password>
+                                        
+        
+        
+        
+        <role>User Biasa</role>
+                                    
+    
+    
+    
+    </user>
+                
+    
+    
+    
+    <user>
+                                
+        
+        
+        <username>1</username>
+                                
+        
+        
+        <password>1</password>
+                                
+        
+        
+        <role>Admin</role>
+                            
+    
+    
+    </user>
+            
+    
+    
+    <user>
+                        
+        
+        <username>1</username>
+                        
+        
+        <password>1</password>
+                        
+        
+        <role>Admin</role>
+                    
+    
+    </user>
+        
+    
+    <user>
+                
+        <username>2</username>
+                
+        <password>2</password>
+                
+        <role>Admin</role>
+            
+    </user>
+    
+    <user>
+        <username>budi</username>
+        <password>budi</password>
+        <role>User Biasa</role>
+    </user>
+</users>

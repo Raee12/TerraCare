@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1080.0" minWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.FXMLDocumentController">
+    <children>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+        <AnchorPane layoutX="298.0" prefHeight="1080.0" prefWidth="1622.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <ScrollPane prefHeight="1080.0" prefWidth="1622.0" style="-fx-background-color: #f4f3ee;">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #e6e5df;">
+                            <children>
+                                <AnchorPane layoutX="-2.0" layoutY="-1.0" minHeight="0.0" minWidth="0.0" prefHeight="1080.0" prefWidth="1920.0">
+                                    <children>
+                                        <ImageView fitHeight="219.0" fitWidth="326.0" layoutX="35.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                                            <image>
+                                                <Image url="@../Bahan/beritaaaa/sungai%20kotor.jpg" />
+                                            </image>
+                                        </ImageView>
+                                        <Text layoutX="384.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    Sungai sebagai sumber daya alam memiliki peran yang sangat penting dalam keberlangsungan siklus air. Namun, kondisi sungai yang tercemar akan berpengaruh besar terhadap kondisi lingkungan dan kehidupan warga sekitar. Pencemaran sungai disebabkan oleh banyak faktor, salah satunya akibat ulah manusia yang tidak bertanggung jawab. Masyarakat seringkali menjadikan sungai sebagai tempat pembuangan sampah hingga menghambat jalannya air dan merusak lingkungan, bahkan banjir. Dari sampah organik hingga non-organik, semua bisa mengotori lingkungan. Oleh karena itu, diperlukan upaya agar kondisi sungai dapat terjaga dengan baik." textAlignment="JUSTIFY" wrappingWidth="732.0635986328125">
+                                            <font>
+                                                <Font size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="35.0" layoutY="252.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kasus-kasus Sungai Dijadikan Tempat Pembuangan">
+                                            <font>
+                                                <Font name="System Bold" size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="35.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Artikel tentang sampah di sungai tidak banyak dibahas masyarakat, meskipun Indonesia diketahui menjadi salah satu negara dengan sungai terbanyak. Sayangnya, sebagian besar warga yang tinggal di dekat area sungai masih membuang sampah sembarangan tanpa memikirkan dampak yang akan terjadi.Salah satunya yang terjadi di sungai Citanduy dan Ciwulan di wilayah Tasikmalaya, Jawa Barat. Menurut hasil laporan dari Tim Peneliti Ekspedisi Sungai Nusantara, kedua sungai tersebut sudah tercemar akibat banyaknya sampah plastik yang memenuhi sungai. Kondisi ini dapat mencemari Laut Pangandaran dan Jawa Tengah yang dikenal sebagai pusat perikanan terbesar di Jawa, karena sampah plastik bisa ikut terbawa arus hingga ke lautan.Selain itu juga, kondisi sungai Bangkatan di Kota Binjai, Sumatera Utara juga cukup memprihatinkan. Sungai ini menjadi tempat pembuangan sampah plastik, limbah rumah tangga, kayu, bambu, hingga bangkai hewan. Keberadaan berbagai jenis sampah ini menimbulkan aroma yang tidak sedap, merusak pemandangan di sekitar aliran sungai, dan kualitas air yang semakin memburuk. Dan juga Sungai Ciliwung, sungai bersejarah di Indonesia yang dinobatkan menjadi sungai paling tercemar di dunia. Ikut tercemar akibat sampah, aktivitas pertanian, limbah industri dan peternakan. Keadaan ini membuat sungai Ciliwung selalu dikaitkan dengan bencana banjir yang terjadi di wilayah DKI Jakarta, karena membentang dari hulu di daerah Bogor dan mengalir sampai ke hilir pantai utara Jakarta." textAlignment="JUSTIFY" wrappingWidth="1088.0635986328125">
+                                            <font>
+                                                <Font size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="35.0" layoutY="449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Keadaaan Sungai di Indonesia dan Kandungannya">
+                                            <font>
+                                                <Font name="System Bold" size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="35.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Artikel tentang sampah di sungai tidak banyak dibahas masyarakat, meskipun Indonesia diketahui menjadi salah satu negara dengan sungai terbanyak. Sayangnya, sebagian besar warga yang tinggal di dekat area sungai masih membuang sampah sembarangan tanpa memikirkan dampak yang akan terjadi.Salah satunya yang terjadi di sungai Citanduy dan Ciwulan di wilayah Tasikmalaya, Jawa Barat. Menurut hasil laporan dari Tim Peneliti Ekspedisi Sungai Nusantara, kedua sungai tersebut sudah tercemar akibat banyaknya sampah plastik yang memenuhi sungai. Kondisi ini dapat mencemari Laut Pangandaran dan Jawa Tengah yang dikenal sebagai pusat perikanan terbesar di Jawa, karena sampah plastik bisa ikut terbawa arus hingga ke lautan.Selain itu juga, kondisi sungai Bangkatan di Kota Binjai, Sumatera Utara juga cukup memprihatinkan. Sungai ini menjadi tempat pembuangan sampah plastik, limbah rumah tangga, kayu, bambu, hingga bangkai hewan. Keberadaan berbagai jenis sampah ini menimbulkan aroma yang tidak sedap, merusak pemandangan di sekitar aliran sungai, dan kualitas air yang semakin memburuk. Dan juga Sungai Ciliwung, sungai bersejarah di Indonesia yang dinobatkan menjadi sungai paling tercemar di dunia. Ikut tercemar akibat sampah, aktivitas pertanian, limbah industri dan peternakan. Keadaan ini membuat sungai Ciliwung selalu dikaitkan dengan bencana banjir yang terjadi di wilayah DKI Jakarta, karena membentang dari hulu di daerah Bogor dan mengalir sampai ke hilir pantai utara Jakarta." textAlignment="JUSTIFY" wrappingWidth="1088.0635986328125">
+                                            <font>
+                                                <Font size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="34.0" layoutY="649.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Upaya yang Dapat Dilakukan Oleh Masyarakat">
+                                            <font>
+                                                <Font name="System Bold" size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="35.0" layoutY="669.0" strokeType="OUTSIDE" strokeWidth="0.0" text="    Berbagai upaya yang dapat dilakukan masyarakat untuk menjaga kondisi sungai adalah memilah limbah rumah tangga secara tepat dan tidak membuang ke sampah ke saluran pembuangan air terutama di sungai. Masyarakat dapat turut serta membantu membersihkan sungai bersama-sama, mengadakan penyuluhan, mengembangkan daerah aliran sungai, dan yang terpenting adalah tidak menjadikan sungai sebagai tempat pembuangan sampah.Alangkah baiknya membuang sampah di tempat yang telah disediakan dan lebih bijak untuk belajar mengelola dan mengolahnya dengan benar." textAlignment="JUSTIFY" wrappingWidth="1088.0635986328125">
+                                            <font>
+                                                <Font size="14.0" />
+                                            </font>
+                                        </Text>
+                                        <Text layoutX="384.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Membuang Sampah di Sungai Membuat Sungai Indonesia Tercemar Berat" wrappingWidth="668.5669555664062">
+                                            <font>
+                                                <Font name="System Bold" size="25.0" />
+                                            </font>
+                                        </Text>
+                                    </children>
+                                </AnchorPane>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </ScrollPane>
+            </children>
+        </AnchorPane>
+        <VBox prefHeight="1080.0" prefWidth="298.0" style="-fx-background-color: #307b94;">
+            <children>
+                <VBox alignment="CENTER_LEFT" prefHeight="611.0" prefWidth="298.0" spacing="20.0" style="-fx-padding: 10;">
+                    <children>
+                        <AnchorPane prefHeight="197.0" prefWidth="278.0">
+                            <children>
+                                <Label alignment="CENTER" layoutX="4.0" layoutY="6.0" prefHeight="49.0" prefWidth="269.0" text="TerraCare">
+                                    <font>
+                                        <Font size="30.0" />
+                                    </font>
+                                </Label>
+                                <ImageView fitHeight="68.0" fitWidth="300.0" layoutX="105.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Bahan/user.png" />
+                                    </image>
+                                </ImageView>
+                                <Label layoutX="85.0" layoutY="135.0" text="Cynthia Arsantiana" textFill="WHITE">
+                                    <font>
+                                        <Font size="13.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <Button mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#handleHomeButton" prefHeight="50.0" prefWidth="248.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Home">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Bahan/home.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#handleMessagesButton" prefHeight="50.0" prefWidth="269.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Messages">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="37.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Bahan/disskusi.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#handleReportButton" prefHeight="50.0" prefWidth="252.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Report">
+                            <graphic>
+                                <ImageView fitHeight="43.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Bahan/users.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#handleRewardButton" prefHeight="50.0" prefWidth="261.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Reward">
+                            <font>
+                                <Font size="18.0" />
+                            </font>
+                            <graphic>
+                                <ImageView fitHeight="43.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@../Bahan/reward.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#HomeLogOutButton" prefHeight="50.0" prefWidth="263.0" text="LogOut">
+                            <font>
+                                <Font size="14.0" />
+                            </font>
+                        </Button>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

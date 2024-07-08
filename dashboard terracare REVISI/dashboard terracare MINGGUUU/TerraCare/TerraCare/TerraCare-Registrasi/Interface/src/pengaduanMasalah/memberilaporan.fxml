@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="742.0" prefWidth="1148.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pengaduanMasalah.MemberiLaporanController">
+    <children>
+        <Text layoutX="97.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report" wrappingWidth="100.11068725585938">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Text>
+        <Text layoutX="57.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lokasi">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+        <ChoiceBox fx:id="CBPencemaran" layoutX="59.0" layoutY="109.0" prefHeight="25.0" prefWidth="166.0" />
+        <TextArea fx:id="deskripsi" layoutX="59.0" layoutY="260.0" prefHeight="279.0" prefWidth="1035.0" />
+        <Text layoutX="60.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jenis Pencemaran">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+        <TextField fx:id="TFLokasi" layoutX="60.0" layoutY="172.0" prefHeight="53.0" prefWidth="1035.0" />
+        <Text layoutX="57.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi">
+         <font>
+            <Font size="14.0" />
+         </font></Text>
+        <Button fx:id="buttonSent" layoutX="63.0" layoutY="565.0" mnemonicParsing="false" onAction="#handleButtonSent" prefHeight="25.0" prefWidth="65.0" style="-fx-background-color: #307b94;" text="Sent" textFill="WHITE" />
+        <Button fx:id="buttonReset" layoutX="134.0" layoutY="565.0" mnemonicParsing="false" onAction="#handleButtonReset" prefHeight="25.0" prefWidth="49.0" style="-fx-background-color: #307b94;" text="Reset" textFill="WHITE" />
+      <ImageView fitHeight="39.0" fitWidth="27.0" layoutX="63.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Bahan/report.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

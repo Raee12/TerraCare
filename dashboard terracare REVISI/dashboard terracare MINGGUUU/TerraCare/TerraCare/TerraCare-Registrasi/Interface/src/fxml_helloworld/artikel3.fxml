@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1080.0" minWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml_helloworld.FXMLDocumentController">
+    <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+        <VBox prefHeight="1080.0" prefWidth="298.0" style="-fx-background-color: #307b94;">
+            <children>
+                <VBox alignment="CENTER_LEFT" prefHeight="611.0" prefWidth="298.0" spacing="20.0" style="-fx-padding: 10;">
+                    <children>
+                  <AnchorPane prefHeight="197.0" prefWidth="278.0">
+                     <children>
+                        <Label alignment="CENTER" layoutX="4.0" layoutY="6.0" prefHeight="49.0" prefWidth="269.0" text="TerraCare">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="68.0" fitWidth="300.0" layoutX="105.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Bahan/user.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="85.0" layoutY="135.0" text="Cynthia Arsantiana" textFill="WHITE">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                        <Button mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" onAction="#handleHomeButton" prefHeight="50.0" prefWidth="248.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Home">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Bahan/home.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                        <Button mnemonicParsing="false" onAction="#handleMessagesButton" prefHeight="50.0" prefWidth="269.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Messages">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="37.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Bahan/disskusi.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                        <Button mnemonicParsing="false" onAction="#handleReportButton" prefHeight="50.0" prefWidth="252.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Report">
+                     <graphic>
+                        <ImageView fitHeight="43.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Bahan/users.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                        <Button mnemonicParsing="false" onAction="#handleRewardButton" prefHeight="50.0" prefWidth="261.0" style="-fx-background-color: transparent; -fx-text-fill: white;" text="Reward">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="43.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Bahan/reward.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button mnemonicParsing="false" onAction="#HomeLogOutButton" prefHeight="50.0" prefWidth="263.0" text="LogOut">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Button>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+        <AnchorPane layoutX="293.0" prefHeight="1080.0" prefWidth="1627.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <ScrollPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #f4f3ee;">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1080.0" prefWidth="1980.0" style="-fx-background-color: #e6e5df;">
+                     <children>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1080.0" prefWidth="1920.0">
+                           <children>
+                              <ImageView fitHeight="219.0" fitWidth="326.0" layoutX="35.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../Bahan/beritaaaa/sungai%20tasikmalaya.jpg" />
+                                 </image>
+                              </ImageView>
+                              <Text layoutX="384.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Tim Ekspedisi Sungai Nusantara Ecological Observation and Wetlands Conservation (Ecoton) Prigi Arisandi mengatakan bahwa sungai-sungai di Pulau Jawa sudah tercemar mikroplastik.Sungai-sungai itu termasuk Sungai Brantas di Jawa Timur, Sungai Bengawan Solo di Jawa Tengah dan Jawa Timur, dan Sungai Citarum di Jawa Barat. Pencemaran sungai ini memicu gerakan somasi pada gubernur-gubernur terkait. Pasalnya, kontaminasi mikroplastik di perairan sungai telah masuk ke dalam rantai makanan." textAlignment="JUSTIFY" wrappingWidth="732.0635986328125">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="35.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     Sumber mikroplastik di sungai berasal dari limbah industri tekstil dan industri daur ulang kertas. Sumber lainnya adalah sampah plastik yang tidak terkelola di daratan yang akhirnya membanjiri sungai. Salah urus pengelolaan sampah, baik di daratan, sungai, maupun lautan turut andil menjadi penyebab rusak dan tercemarnya sungai-sungai di Pulau Jawa. “Sungai-sungai di Pulau Jawa ini tertekan. Bayangkan, 60 persen populasi Indonesia tinggal di Pulau Jawa dan semua butuh air bersih. Di sisi lain, ratusan industri membuang limbahnya ke sungai,” ujar Prigi dalam konferensi pers Wahana Lingkungan Hidup Indonesia (WALHI) Selasa (12/4/2022). Sungai Brantas terkenal dengan pabrik gula dan kertas, di Bengawan Solo ada pabrik kain besar yang memasok kain untuk baju yang digunakan hampir seluruh tentara di dunia. Sedangkan, di Jawa Barat atau di Citarum ada Majalaya yang memiliki 500 industri dengan produk-produk ekspor. Produk terbaik dikirim ke luar negeri, sedangkan sisa limbahnya dialirkan ke sungai. Untuk itu, ia dan para aktivis lingkungan lain mendukung gerakan somasi untuk para gubernur di tiga provinsi sebagai tanggung jawab atas pencemaran sungai dan sampah di pulau jawa. “Kita melakukan upaya mitigasi, menggugat para gubernur di Jawa. Gubernur Jawa Barat, Jawa Tengah, dan Jawa Timur karena kita menganggap mereka lalai dan membiarkan sungai-sungai penting di Jawa jadi tercemar dan mengancam kesehatan masyarakat.” Ketiga gubernur juga dinilai tidak mengelola sampah dengan baik dan membiarkan industri membuang limbah tanpa diolah. Prigi dan aktivis lingkungan lainnya juga mendorong pemerintah untuk membuat baku mutu baru terkait mikroplastik dalam air dan ikan." textAlignment="JUSTIFY" wrappingWidth="1088.0635986328125">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Text>
+                              <Text layoutX="384.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sungai di Jawa Tercemar Mikroplastik, Aktivis Lingkungan Somasi Para Gubernur" wrappingWidth="668.5669555664062">
+                                 <font>
+                                    <Font name="System Bold" size="25.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

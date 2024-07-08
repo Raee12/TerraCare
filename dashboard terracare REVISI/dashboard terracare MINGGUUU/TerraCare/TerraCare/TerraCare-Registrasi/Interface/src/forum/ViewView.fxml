@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="698.0" prefWidth="525.0" style="-fx-background-color: #307b94;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="forum.ViewDiscussionsController">
+   <children>
+       <TableView fx:id="tableView" prefHeight="399.0" prefWidth="525.0" style="-fx-background-color: metal;">
+           <columns>
+               <TableColumn fx:id="titleColumn" prefWidth="126.0" text="Judul" />
+               <TableColumn fx:id="categoryColumn" prefWidth="138.0" text="Kategori" />
+               <TableColumn fx:id="contentColumn" prefWidth="230.0" text="Isi Diskusi" />
+           </columns>
+       </TableView>
+       <Button layoutX="14.0" layoutY="416.0" onAction="#handleBackToMenu" prefHeight="31.0" prefWidth="124.0" text="Kembali ke Menu" />
+      <Button layoutX="151.0" layoutY="416.0" mnemonicParsing="false" onAction="#handleDeleteDisk" prefHeight="31.0" prefWidth="124.0" text="Delete" textFill="#000000d1" />
+   </children>
+</AnchorPane>

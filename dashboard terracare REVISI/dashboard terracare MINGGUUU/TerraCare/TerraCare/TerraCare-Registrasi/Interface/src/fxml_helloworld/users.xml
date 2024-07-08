@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <username>user1</username>
+        <password>pass1</password>
+        <role>User Biasa</role>
+    </user>
+    <user>
+        <username>admin</username>
+        <password>adminpass</password>
+        <role>Admin</role>
+    </user>
+</users>
+

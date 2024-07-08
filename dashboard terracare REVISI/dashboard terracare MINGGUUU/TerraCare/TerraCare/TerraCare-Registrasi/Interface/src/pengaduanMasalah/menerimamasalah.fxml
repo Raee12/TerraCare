@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="742.0" prefWidth="1148.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pengaduanMasalah.MenerimaMasalahController">
+   <children>
+      <TableView fx:id="tableView" layoutX="44.0" layoutY="87.0" prefHeight="574.0" prefWidth="1045.0">
+        <columns>
+          <TableColumn fx:id="tcJenisPencemaran" prefWidth="138.66668701171875" text="Jenis Pencemaran" />
+          <TableColumn fx:id="tcLokasi" prefWidth="210.00003051757812" text="Lokasi" />
+          <TableColumn fx:id="tcDeskripsi" prefWidth="363.33331298828125" text="Deskripsi" />
+          <TableColumn fx:id="tcStatus" prefWidth="134.66668701171875" text="Status" />
+          <TableColumn fx:id="tcActions" prefWidth="196.00006103515625" text="Actions" />
+        </columns>
+      </TableView>
+      <Text layoutX="77.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Report" wrappingWidth="100.11068725585938">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="39.0" fitWidth="27.0" layoutX="44.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Bahan/report.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
